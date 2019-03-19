@@ -13,7 +13,7 @@ Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 ## Section 2
 ### The Angular Frontend - Understanding the Basics
 - created a new post-create component.
-- Different types of getting a value from the class.
+- Different types of getting a value from the class Event Binding and String .
 	```html
 	<textarea rows="6" [value]="newPost"></textarea>
 	<hr>
@@ -27,8 +27,20 @@ Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 	<button (click)="onAddPost()">Save Post</button>
 	<p>{{ newPost }}</p>
 	```
+	```ts
+	export class PostCreateComponent {
+    
+	    enteredValue = '';
+	    newPost = 'No Content';
+	    
+	    onAddPost() {
+	        this.newPost = this.enteredValue;
+	    }
+	}
+	```
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NjUxNDEwNSwxNTMxMjY4NzEyLC0xNj
+eyJoaXN0b3J5IjpbMTYyMDkyNDAyNiwxNTMxMjY4NzEyLC0xNj
 I2ODk5NzIyLDE0MTQ4MTE1MDksLTQ3NTI4NzMwMSwtNjYzNzk0
 MTIxLDExNDk3MTQ0NzcsLTE2OTgzODMzMjldfQ==
 -->
