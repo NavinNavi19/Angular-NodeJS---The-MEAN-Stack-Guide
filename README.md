@@ -5,6 +5,8 @@ Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 ### Getting Started
 - MEAN ( Mongo, Express, Angular, Node)
 - Install Node, Angular CLI `npm install -g @angular/cli`
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0OTcxNDQ3NywtMTY5ODM4MzMyOV19
+eyJoaXN0b3J5IjpbMzEzMDQzNzUyLDExNDk3MTQ0NzcsLTE2OT
+gzODMzMjldfQ==
 -->
