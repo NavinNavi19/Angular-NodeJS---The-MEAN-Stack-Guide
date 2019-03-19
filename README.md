@@ -20,9 +20,15 @@ Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 	<button (click)="onAddPost()">Save Post</button>
 	<p>{{ newPost }}</p>
 	```
-- Learned abo
+- Learned about two way binding with [(ngModel)].
+	```html
+	<textarea rows="6" [(ngModel)]="enteredValue" ></textarea>
+	<hr>
+	<button (click)="onAddPost()">Save Post</button>
+	<p>{{ newPost }}</p>
+	```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDc5MTk3NDksMTUzMTI2ODcxMiwtMT
-YyNjg5OTcyMiwxNDE0ODExNTA5LC00NzUyODczMDEsLTY2Mzc5
-NDEyMSwxMTQ5NzE0NDc3LC0xNjk4MzgzMzI5XX0=
+eyJoaXN0b3J5IjpbLTM4NjUxNDEwNSwxNTMxMjY4NzEyLC0xNj
+I2ODk5NzIyLDE0MTQ4MTE1MDksLTQ3NTI4NzMwMSwtNjYzNzk0
+MTIxLDExNDk3MTQ0NzcsLTE2OTgzODMzMjldfQ==
 -->
