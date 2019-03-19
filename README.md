@@ -12,9 +12,9 @@ Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 
 ## Section 2
 ### The Angular Frontend - Understanding the Basics
-- created a new 
+- created a new post-create component.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MjA5MTY0NiwxNDE0ODExNTA5LC00Nz
-UyODczMDEsLTY2Mzc5NDEyMSwxMTQ5NzE0NDc3LC0xNjk4Mzgz
-MzI5XX0=
+eyJoaXN0b3J5IjpbLTE2MjY4OTk3MjIsMTQxNDgxMTUwOSwtND
+c1Mjg3MzAxLC02NjM3OTQxMjEsMTE0OTcxNDQ3NywtMTY5ODM4
+MzMyOV19
 -->
