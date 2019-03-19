@@ -9,8 +9,11 @@ Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 - To change the host and port, added `"port": 8080", "host": "0.0.0.0"` in "serve" object inside angular.json file.
 - Basic default app served.
 - Learned the angular app folder components.
+
+## Section 2
+### The Angular Frontend - Understanding the Basics
 - 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NTI4NzMwMSwtNjYzNzk0MTIxLDExND
-k3MTQ0NzcsLTE2OTgzODMzMjldfQ==
+eyJoaXN0b3J5IjpbMTQxNDgxMTUwOSwtNDc1Mjg3MzAxLC02Nj
+M3OTQxMjEsMTE0OTcxNDQ3NywtMTY5ODM4MzMyOV19
 -->
