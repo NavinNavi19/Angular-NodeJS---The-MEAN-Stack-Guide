@@ -20,9 +20,9 @@ Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 	<button (click)="onAddPost()">Save Post</button>
 	<p>{{ newPost }}</p>
 	```
-- 
+- Learned abo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMTI2ODcxMiwtMTYyNjg5OTcyMiwxND
-E0ODExNTA5LC00NzUyODczMDEsLTY2Mzc5NDEyMSwxMTQ5NzE0
-NDc3LC0xNjk4MzgzMzI5XX0=
+eyJoaXN0b3J5IjpbLTEzMDc5MTk3NDksMTUzMTI2ODcxMiwtMT
+YyNjg5OTcyMiwxNDE0ODExNTA5LC00NzUyODczMDEsLTY2Mzc5
+NDEyMSwxMTQ5NzE0NDc3LC0xNjk4MzgzMzI5XX0=
 -->
