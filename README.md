@@ -44,9 +44,11 @@ Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 - Learned about observables, observer and subscriptions.
 - Used rxjs for the above events.
 
-
+## Section 3
+### Adding NodeJS to our Project
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MDk4MjY0NywtNjQzNzcyNTIyLDczMD
+eyJoaXN0b3J5IjpbLTEwODgyNTczOSwtNjQzNzcyNTIyLDczMD
 kxMDQ5MiwtMTc2NjMyMzc1MiwtMTU5OTMyNTc2NSwtMTYxMDIz
 MDc3OCwxNTMxMjY4NzEyLC0xNjI2ODk5NzIyLDE0MTQ4MTE1MD
 ksLTQ3NTI4NzMwMSwtNjYzNzk0MTIxLDExNDk3MTQ0NzcsLTE2
