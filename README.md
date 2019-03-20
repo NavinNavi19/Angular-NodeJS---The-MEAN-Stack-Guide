@@ -43,11 +43,12 @@ Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 - Improved all the bindings and form errors handling
 - Learned about observables, observer and subscriptions.
 - Used rxjs for the above events.
-- 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0Mzc3MjUyMiw3MzA5MTA0OTIsLTE3Nj
-YzMjM3NTIsLTE1OTkzMjU3NjUsLTE2MTAyMzA3NzgsMTUzMTI2
-ODcxMiwtMTYyNjg5OTcyMiwxNDE0ODExNTA5LC00NzUyODczMD
-EsLTY2Mzc5NDEyMSwxMTQ5NzE0NDc3LC0xNjk4MzgzMzI5XX0=
 
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTk3MDk4MjY0NywtNjQzNzcyNTIyLDczMD
+kxMDQ5MiwtMTc2NjMyMzc1MiwtMTU5OTMyNTc2NSwtMTYxMDIz
+MDc3OCwxNTMxMjY4NzEyLC0xNjI2ODk5NzIyLDE0MTQ4MTE1MD
+ksLTQ3NTI4NzMwMSwtNjYzNzk0MTIxLDExNDk3MTQ0NzcsLTE2
+OTgzODMzMjldfQ==
 -->
