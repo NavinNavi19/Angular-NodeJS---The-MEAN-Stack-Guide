@@ -46,11 +46,12 @@ Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 
 ## Section 3
 ### Adding NodeJS to our Project
-- I
+- Installed Express generated Node application - Remove unwanted packages later as per the use.
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NDM4MzA2MiwtMTA4ODI1NzM5LC02ND
-M3NzI1MjIsNzMwOTEwNDkyLC0xNzY2MzIzNzUyLC0xNTk5MzI1
-NzY1LC0xNjEwMjMwNzc4LDE1MzEyNjg3MTIsLTE2MjY4OTk3Mj
-IsMTQxNDgxMTUwOSwtNDc1Mjg3MzAxLC02NjM3OTQxMjEsMTE0
-OTcxNDQ3NywtMTY5ODM4MzMyOV19
+eyJoaXN0b3J5IjpbNzY3OTMxOTA4LC0xMDg4MjU3MzksLTY0Mz
+c3MjUyMiw3MzA5MTA0OTIsLTE3NjYzMjM3NTIsLTE1OTkzMjU3
+NjUsLTE2MTAyMzA3NzgsMTUzMTI2ODcxMiwtMTYyNjg5OTcyMi
+wxNDE0ODExNTA5LC00NzUyODczMDEsLTY2Mzc5NDEyMSwxMTQ5
+NzE0NDc3LC0xNjk4MzgzMzI5XX0=
 -->
