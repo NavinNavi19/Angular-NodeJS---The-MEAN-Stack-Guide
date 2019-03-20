@@ -39,10 +39,10 @@ Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 	}
 	```
 - Installed `ng add @angular/material` Angular Material Theme with Pink template, Hammerjs installed and Browser Animation Included.
-- 
+- Added Post Model into all the components.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTkzMjU3NjUsLTE2MTAyMzA3NzgsMT
-UzMTI2ODcxMiwtMTYyNjg5OTcyMiwxNDE0ODExNTA5LC00NzUy
-ODczMDEsLTY2Mzc5NDEyMSwxMTQ5NzE0NDc3LC0xNjk4MzgzMz
-I5XX0=
+eyJoaXN0b3J5IjpbLTE3NjYzMjM3NTIsLTE1OTkzMjU3NjUsLT
+E2MTAyMzA3NzgsMTUzMTI2ODcxMiwtMTYyNjg5OTcyMiwxNDE0
+ODExNTA5LC00NzUyODczMDEsLTY2Mzc5NDEyMSwxMTQ5NzE0ND
+c3LC0xNjk4MzgzMzI5XX0=
 -->
