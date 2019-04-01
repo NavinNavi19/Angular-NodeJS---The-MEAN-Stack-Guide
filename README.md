@@ -55,4 +55,10 @@ Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 
 - Created a new project and cluster for this course in Mongo DB Atlas.
 - Installing Mongoose.
-- 
+- Finally integrated Angular, Node and Mongoose
+
+## Section 5
+
+### Enhancing the app
+
+-
