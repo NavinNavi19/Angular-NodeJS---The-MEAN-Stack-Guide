@@ -61,4 +61,5 @@ Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 
 ### Enhancing the app
 
--
+- Working with Angular RouterModule.
+- Adding the edit button.
