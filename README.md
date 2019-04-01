@@ -47,4 +47,12 @@ Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 
 - Installed Express generated Node application - Remove unwanted packages later as per the use.
 - `npm install` for installing from github.
--
+- Nodemon Error `[nodemon] Internal watch failed: ENOSPC: System limit for number of file watchers reached, watch '/home/navin/Apps/Github/Angular-NodeJS---The-MEAN-Stack-Guide'` and the solution is to increase the no of watchers in system level `echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p`.
+
+## Section 4
+
+### Working with Mongo DB
+
+- Created a new project and cluster for this course in Mongo DB Atlas.
+- Installing Mongoose.
+- 
