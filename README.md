@@ -1,8 +1,11 @@
 # Angular-NodeJS---The-MEAN-Stack-Guide
+
 Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 
 ## Section 1
+
 ### Getting Started
+
 - MEAN ( Mongo, Express, Angular, Node)
 - Install Node, Angular CLI `npm install -g @angular/cli`
 - ng serve will serve in default port and host.
@@ -11,33 +14,27 @@ Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 - Learned the angular app folder components.
 
 ## Section 2
+
 ### The Angular Frontend - Understanding the Basics
+
 - created a new post-create component.
 - Different types of getting a value from the class Event Binding and String Intropolation.
-	```html
-	<textarea rows="6" [value]="newPost"></textarea>
-	<hr>
-	<button (click)="onAddPost()">Save Post</button>
-	<p>{{ newPost }}</p>
-	```
+  `html <textarea rows="6" [value]="newPost"></textarea> <hr> <button (click)="onAddPost()">Save Post</button> <p>{{ newPost }}</p>`
 - Learned about two way binding with [(ngModel)].
-	```html
-	<textarea rows="6" [(ngModel)]="enteredValue" ></textarea>
-	<hr>
-	<button (click)="onAddPost()">Save Post</button>
-	<p>{{ newPost }}</p>
-	```
-	```ts
-	export class PostCreateComponent {
-    
-	    enteredValue = '';
-	    newPost = 'No Content';
-	    
-	    onAddPost() {
-	        this.newPost = this.enteredValue;
-	    }
-	}
-	```
+  `html <textarea rows="6" [(ngModel)]="enteredValue" ></textarea> <hr> <button (click)="onAddPost()">Save Post</button> <p>{{ newPost }}</p>`
+
+  ````ts
+  export class PostCreateComponent {
+      	    enteredValue = '';
+      	    newPost = 'No Content';
+
+      	    onAddPost() {
+      	        this.newPost = this.enteredValue;
+      	    }
+      	}
+      	```
+  ````
+
 - Installed `ng add @angular/material` Angular Material Theme with Pink template, Hammerjs installed and Browser Animation Included.
 - Added Post Model into all the components.
 - Improved all the bindings and form errors handling
@@ -45,13 +42,9 @@ Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 - Used rxjs for the above events.
 
 ## Section 3
+
 ### Adding NodeJS to our Project
+
 - Installed Express generated Node application - Remove unwanted packages later as per the use.
-- 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY3OTMxOTA4LC0xMDg4MjU3MzksLTY0Mz
-c3MjUyMiw3MzA5MTA0OTIsLTE3NjYzMjM3NTIsLTE1OTkzMjU3
-NjUsLTE2MTAyMzA3NzgsMTUzMTI2ODcxMiwtMTYyNjg5OTcyMi
-wxNDE0ODExNTA5LC00NzUyODczMDEsLTY2Mzc5NDEyMSwxMTQ5
-NzE0NDc3LC0xNjk4MzgzMzI5XX0=
--->
+- `npm install` for installing from github.
+-
