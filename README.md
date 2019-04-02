@@ -63,3 +63,9 @@ Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 
 - Working with Angular RouterModule.
 - Adding the edit button.
+- Saving them using PUT Request.
+- Adding the spinner for loading.
+
+## Section 6
+
+###
