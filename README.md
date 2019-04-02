@@ -68,4 +68,8 @@ Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 
 ## Section 6
 
-###
+### Adding Image Uploads
+
+- Adding the image and Preview done.
+- Image Validation.
+- Saving the image in backend and accessing them with Angular.
