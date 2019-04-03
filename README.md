@@ -79,6 +79,12 @@ Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 
 ### Adding Pagination
 
+- Added Pagination using Angular Material and Mongoose support.
+
+## Section 8
+
+## User Authentication
+
 -
 
 ## To do
