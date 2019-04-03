@@ -85,7 +85,10 @@ Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 
 ## User Authentication
 
--
+- New Login and Signup form has been setup on the Angular.
+- Installed `mongoose-unique-validator` for unique email ID check.
+- Installed `jsonwebtoken` for user login validation.
+- Adding middleware for token validation on the server side.
 
 ## To do
 
