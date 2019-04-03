@@ -73,3 +73,14 @@ Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 - Adding the image and Preview done.
 - Image Validation.
 - Saving the image in backend and accessing them with Angular.
+- Finally Images can be changed using edit button.
+
+## Section 7
+
+### Adding Pagination
+
+-
+
+## To do
+
+- https://academind.com/learn/angular/snippets/angular-image-upload-made-easy/
