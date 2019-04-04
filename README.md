@@ -83,7 +83,7 @@ Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 
 ## Section 8
 
-## User Authentication
+### User Authentication
 
 - New Login and Signup form has been setup on the Angular.
 - Installed `mongoose-unique-validator` for unique email ID check.
@@ -92,6 +92,18 @@ Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 - Added auto redirection to home after login and logout.
 - Adding guards to guard the links.
 - Adding token expiration details in frontend.
+
+## Section 9
+
+### User Authorization
+
+- Post create, edit and Delete authorization based on individual user.
+
+## Section 10
+
+### Handling Errors
+
+-
 
 ## To do
 
