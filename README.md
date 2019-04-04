@@ -89,6 +89,9 @@ Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 - Installed `mongoose-unique-validator` for unique email ID check.
 - Installed `jsonwebtoken` for user login validation.
 - Adding middleware for token validation on the server side.
+- Added auto redirection to home after login and logout.
+- Adding guards to guard the links.
+- Adding token expiration details in frontend.
 
 ## To do
 
