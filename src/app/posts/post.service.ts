@@ -6,6 +6,9 @@ import { map } from "rxjs/operators";
 import { Post } from "./post.model";
 import { Router } from "@angular/router";
 
+import { environment } from "src/environments/environment";
+const BACKEND_URL = environment.apiUrl + "/posts/";
+
 @Injectable({ providedIn: "root" })
 export class PostsService {
   private posts: Post[] = [];
@@ -17,7 +20,7 @@ export class PostsService {
     const queryParams = `?pagesize=${postsPerPage}&page=${currentPage}`;
     this.http
       .get<{ message: String; posts: any; maxPosts: number }>(
-        "http://35.154.61.191:8080/api/posts" + queryParams
+        BACKEND_URL + queryParams
       )
       .pipe(
         map(postData => {
@@ -55,7 +58,7 @@ export class PostsService {
       content: string;
       imagePath: string;
       creator: string;
-    }>("http://35.154.61.191:8080/api/posts/" + id);
+    }>(BACKEND_URL + id);
   }
 
   addPost(title: string, content: string, image: File) {
@@ -64,10 +67,7 @@ export class PostsService {
     postData.append("content", content);
     postData.append("image", image, title);
     this.http
-      .post<{ message: string; post: Post }>(
-        "http://35.154.61.191:8080/api/posts",
-        postData
-      )
+      .post<{ message: string; post: Post }>(BACKEND_URL, postData)
       .subscribe(() => {
         this.router.navigate(["/"]);
       });
@@ -90,14 +90,12 @@ export class PostsService {
         creator: null
       };
     }
-    this.http
-      .put("http://35.154.61.191:8080/api/posts/" + id, postData)
-      .subscribe(() => {
-        this.router.navigate(["/"]);
-      });
+    this.http.put(BACKEND_URL + id, postData).subscribe(() => {
+      this.router.navigate(["/"]);
+    });
   }
 
   deletePost(postId: string) {
-    return this.http.delete("http://35.154.61.191:8080/api/posts/" + postId);
+    return this.http.delete(BACKEND_URL + postId);
   }
 }

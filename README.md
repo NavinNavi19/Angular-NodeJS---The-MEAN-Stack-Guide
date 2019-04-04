@@ -103,7 +103,14 @@ Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 
 ### Handling Errors
 
--
+- Handled login and signup errors.
+
+## Section 11
+
+### App Optimization
+
+- Refracted lots of code from app feature specific modules and lazy routes.
+- Also added the repeated URLs in Angular ENV settings and backend secrets to Node ENV settings.
 
 ## To do
 

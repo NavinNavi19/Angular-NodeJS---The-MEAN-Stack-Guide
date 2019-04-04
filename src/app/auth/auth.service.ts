@@ -4,6 +4,9 @@ import { Router } from "@angular/router";
 import { Subject } from "rxjs";
 
 import { AuthData } from "./auth-data.model";
+import { environment } from "src/environments/environment";
+
+const BACKEND_URL = environment.apiUrl + "/user/";
 
 @Injectable({ providedIn: "root" })
 export class AuthService {
@@ -36,18 +39,14 @@ export class AuthService {
       email: email,
       password: password
     };
-    this.http
-      .post("http://35.154.61.191:8080/api/user/signup", authData)
-      .subscribe(
-        response => {
-          console.log(response);
-          this.router.navigate(["/login"]);
-        },
-        err => {
-          console.log(err);
-          this.authStatusListener.next(false);
-        }
-      );
+    this.http.post(BACKEND_URL + "/signup", authData).subscribe(
+      response => {
+        this.router.navigate(["/auth/login"]);
+      },
+      err => {
+        this.authStatusListener.next(false);
+      }
+    );
   }
 
   login(email: string, password: string) {
@@ -57,7 +56,7 @@ export class AuthService {
     };
     this.http
       .post<{ token: string; expiresIn: number; userId; string }>(
-        "http://35.154.61.191:8080/api/user/login",
+        BACKEND_URL + "/login",
         authData
       )
       .subscribe(
@@ -80,7 +79,6 @@ export class AuthService {
           }
         },
         err => {
-          console.log(err);
           this.authStatusListener.next(false);
         }
       );

@@ -59,22 +59,27 @@ export class PostListComponent implements OnInit, OnDestroy {
 
   onDelete(postId: string) {
     this.isLoading = true;
-    this.postsService.deletePost(postId).subscribe(() => {
-      if (
-        this.totalPosts - 1 - this.postsPerPage * (this.currentPage - 1) <=
-        0
-      ) {
-        this.currentPage = this.currentPage === 1 ? 1 : this.currentPage - 1;
-        this.paginator.pageIndex = this.currentPage - 1;
-        this.totalPosts = this.totalPosts === 0 ? 0 : this.totalPosts - 1;
-        this.paginator.page.next({
-          pageIndex: this.paginator.pageIndex,
-          pageSize: this.paginator.pageSize,
-          length: this.totalPosts
-        });
+    this.postsService.deletePost(postId).subscribe(
+      () => {
+        if (
+          this.totalPosts - 1 - this.postsPerPage * (this.currentPage - 1) <=
+          0
+        ) {
+          this.currentPage = this.currentPage === 1 ? 1 : this.currentPage - 1;
+          this.paginator.pageIndex = this.currentPage - 1;
+          this.totalPosts = this.totalPosts === 0 ? 0 : this.totalPosts - 1;
+          this.paginator.page.next({
+            pageIndex: this.paginator.pageIndex,
+            pageSize: this.paginator.pageSize,
+            length: this.totalPosts
+          });
+        }
+        this.postsService.getPosts(this.postsPerPage, this.currentPage);
+      },
+      () => {
+        this.isLoading = false;
       }
-      this.postsService.getPosts(this.postsPerPage, this.currentPage);
-    });
+    );
   }
 
   ngOnDestroy() {
