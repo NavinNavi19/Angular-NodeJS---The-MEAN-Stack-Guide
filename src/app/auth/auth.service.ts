@@ -39,7 +39,7 @@ export class AuthService {
       email: email,
       password: password
     };
-    this.http.post(BACKEND_URL + "/signup", authData).subscribe(
+    this.http.post(BACKEND_URL + "signup", authData).subscribe(
       response => {
         this.router.navigate(["/auth/login"]);
       },
@@ -56,7 +56,7 @@ export class AuthService {
     };
     this.http
       .post<{ token: string; expiresIn: number; userId; string }>(
-        BACKEND_URL + "/login",
+        BACKEND_URL + "login",
         authData
       )
       .subscribe(
