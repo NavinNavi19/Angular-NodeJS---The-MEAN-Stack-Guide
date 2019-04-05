@@ -112,6 +112,17 @@ Angular &amp; NodeJS - The MEAN Stack Guide - Udemy Course Notes
 - Refracted lots of code from app feature specific modules and lazy routes.
 - Also added the repeated URLs in Angular ENV settings and backend secrets to Node ENV settings.
 
+# Section 12
+
+## App Deployment
+
+- Two seperate app deployment done with Node and angular `ng build --prod` seperately.
+- Node app on AWS BeanStack and Angular using the SPA build files.
+- Change the production angular environmental URL when building different Applications.
+- Single deployment using Node itself only change the build output folder and serve the static files using Node itself.
+- NOTE: Be careful to change the url and the build location before building the angular application.
+- Set Headers can be removed during the integrated approach.
+
 ## To do
 
 - https://academind.com/learn/angular/snippets/angular-image-upload-made-easy/

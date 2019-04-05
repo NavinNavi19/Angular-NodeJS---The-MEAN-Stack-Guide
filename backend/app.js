@@ -25,6 +25,7 @@ app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use("/images", express.static(path.join(__dirname, "./images")));
+app.use("/", express.static(path.join(__dirname, "./angularmean")));
 
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
@@ -41,5 +42,7 @@ app.use((req, res, next) => {
 
 app.use("/api/posts", postsRoutes);
 app.use("/api/user", userRoutes);
-
+app.use((req, res, next) => {
+  res.sendFile(path.join(__dirname, "angularmean/index.html"));
+});
 module.exports = app;
