@@ -23,7 +23,7 @@ export class PostListComponent implements OnInit, OnDestroy {
   private authListenerSubs: Subscription;
   userIsAuthenticated = false;
 
-  @ViewChild("paginator") paginator: any;
+  @ViewChild("paginator", { static: false }) paginator: any;
 
   constructor(
     public postsService: PostsService,
