@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiUrl: "https://angularmeannode.herokuapp.com/api"
+  apiUrl: "http://35.154.61.191:8080/api"
 };
