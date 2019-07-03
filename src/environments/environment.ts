@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiUrl: "http://35.154.61.191:8080/api"
+  apiUrl: "https://materialized-blog.herokuapp.com/api"
 };
 
 /*
